@@ -9,89 +9,91 @@ Minecraft Bukkit plugin Skill AttributeTree
 
 ## 配置文件config.yml(演示案例 仅供参考)
 
-``#############################################################################
-#  config.yml
-#  启梦团队
-#
-#
-#
-#
-#
-#  加点属性：定义在SkillAPI目录下的 attributes.yml里面的属性
-#  图片路径和vv的写法一样 参考vv教程
-#############################################################################
-picture:
-  # 图片路径 和vv路径填写一样
-  url: "[local]tf/UI_StatusFrame00_TEX.png"
-  # 显示x坐标
-  x: 45
-  # 显示y坐标
-  y: 10
-  # 图片宽度
-  width: 500
-  # 图片高度
-  height: 300
-# 按钮设置
-buttonSettings:
-  # 通用设置
-  currency:
-    # url - 按钮贴图链接
-    # url2 - 按钮被选中贴图链接
-    url: "[local]tf/加点按钮.png"
-    url2: "[local]tf/选中加点按钮.png"
-  goldFox:
-    x: 325
-    y: 200
-    # 图片宽度
-    w: 30
-    # 图片高度
-    h: 30
-    # 加点属性列表(只能加一点 若要加多个点 请重复键入)
-    addAttr:
-      - '烈魂'
-      - '战斗本能'
-    # 消耗属性点
-    point: 2
-  star:
-    x: 170
-    y: 200
-    w: 30
-    h: 30
-    addAttr:
-      - '物语'
-      - '海语'
-    point: 2
-  starLight:
-    x: 247
-    y: 200
-    w: 30
-    h: 30
-    addAttr:
-      - '物语'
-      - '能源虹吸'
-    point: 2
-  sunLight:
-    x: 404
-    y: 200
-    w: 30
-    h: 30
-    addAttr:
-      - '烈魂'
-      - '战斗本能'
-    point: 2
-  dragonSpirit:
-    x: 90
-    y: 200
-    w: 30
-    h: 30
-    addAttr:
-      - '烈魂'
-      - '战斗本能'
-    point: 2
-# 属性点显示坐标
-attributePoints:
-  x: 500
-  y: 300``
+/*:
+ * #############################################################################
+ * #  config.yml
+ * #  启梦团队
+ * #
+ * #
+ * #
+ * #
+ * #
+ * #  加点属性：定义在SkillAPI目录下的 attributes.yml里面的属性
+ * #  图片路径和vv的写法一样 参考vv教程
+ * #############################################################################
+ * picture:
+ *   # 图片路径 和vv路径填写一样
+ *   url: "[local]tf/UI_StatusFrame00_TEX.png"
+ *   # 显示x坐标
+ *   x: 45
+ *   # 显示y坐标
+ *   y: 10
+ *   # 图片宽度
+ *   width: 500
+ *   # 图片高度
+ *   height: 300
+ * # 按钮设置
+ * buttonSettings:
+ *   # 通用设置
+ *   currency:
+ *     # url - 按钮贴图链接
+ *     # url2 - 按钮被选中贴图链接
+ *     url: "[local]tf/加点按钮.png"
+ *     url2: "[local]tf/选中加点按钮.png"
+ *   goldFox:
+ *     x: 325
+ *     y: 200
+ *     # 图片宽度
+ *     w: 30
+ *     # 图片高度
+ *     h: 30
+ *     # 加点属性列表(只能加一点 若要加多个点 请重复键入)
+ *     addAttr:
+ *       - '烈魂'
+ *       - '战斗本能'
+ *     # 消耗属性点
+ *     point: 2
+ *   star:
+ *     x: 170
+ *     y: 200
+ *     w: 30
+ *     h: 30
+ *     addAttr:
+ *       - '物语'
+ *       - '海语'
+ *     point: 2
+ *   starLight:
+ *     x: 247
+ *     y: 200
+ *     w: 30
+ *     h: 30
+ *     addAttr:
+ *       - '物语'
+ *       - '能源虹吸'
+ *     point: 2
+ *   sunLight:
+ *     x: 404
+ *     y: 200
+ *     w: 30
+ *     h: 30
+ *     addAttr:
+ *       - '烈魂'
+ *       - '战斗本能'
+ *     point: 2
+ *   dragonSpirit:
+ *     x: 90
+ *     y: 200
+ *     w: 30
+ *     h: 30
+ *     addAttr:
+ *       - '烈魂'
+ *       - '战斗本能'
+ *     point: 2
+ * # 属性点显示坐标
+ * attributePoints:
+ *   x: 500
+ *   y: 300
+ */
 
 ## 注意事项：
 1. 本插件基于SkillAPI和VexView插件，无两插件中任意一个，都无法正常运行
